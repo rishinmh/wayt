@@ -76,14 +76,11 @@ WSGI_APPLICATION = 'WAYT.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'wayt', 
+        'NAME': 'wayt',  # Replace with your database name
         'USER': 'postgres',  # Replace with your PostgreSQL username
         'PASSWORD': 'root',  # Replace with your PostgreSQL password
-        'HOST': 'localhost',  # Replace with your PostgreSQL host, e.g., '127.0.0.1'
-         'PORT': '5432',         # Replace with your SQL Server port, e.g., 1433
-        'OPTIONS': {
-            'driver': 'ODBC Driver 17 for SQL Server',  # Make sure you have this driver installed
-        },
+        'HOST': 'localhost',  # Replace with your PostgreSQL host (default: 'localhost')
+        'PORT': '5432',  # Default PostgreSQL port
     }
 }
 
