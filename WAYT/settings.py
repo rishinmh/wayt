@@ -82,7 +82,7 @@ DATABASES = {
         'HOST': 'localhost',  # Replace with your PostgreSQL host, e.g., '127.0.0.1'
          'PORT': '5432',         # Replace with your SQL Server port, e.g., 1433
         'OPTIONS': {
-            'driver': 'ODBC Driver 18 for SQL Server',  # Make sure you have this driver installed
+            'driver': 'ODBC Driver 17 for SQL Server',  # Make sure you have this driver installed
         },
     }
 }
