@@ -37,7 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Custom Apps
+    'users',              # Manages user accounts, preferences, and authentication.
+    'bookings',           # Handles user bookings for hotels, buses, and flights.
+    'recommendations',    # Manages AI-based travel suggestions and recommendations.
+    'payments',           # Processes payments and manages payment statuses.
+    'scheduler',          # Creates and optimizes travel itineraries for users.
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
