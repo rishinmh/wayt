@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'WAYT.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'wayt',  # Replace with your database name
-        'USER': 'postgres',  # Replace with your PostgreSQL username
-        'PASSWORD': 'root',  # Replace with your PostgreSQL password
-        'HOST': 'localhost',  # Replace with your PostgreSQL host (default: 'localhost')
-        'PORT': '5432',  # Default PostgreSQL port
+        'NAME': 'wayt', 
+        'USER': 'postgres', 
+        'PASSWORD': 'root',  
+        'HOST': 'localhost', 
+        'PORT': '5432', 
     }
 }
 
